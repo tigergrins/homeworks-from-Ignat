@@ -23,12 +23,13 @@
 }
 
 .user_name {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     color: #04d9b2;
 }
 
 .text_message {
+    font-size: 16px;
     min-width: 150px;
     max-width: 300px;
     word-wrap: break-word;
