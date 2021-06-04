@@ -4,3 +4,15 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.high {
+    color: red;
+}
+
+.low {
+    color: #2790f2;
+}
+
+.middle {
+    color: coral;
+}
