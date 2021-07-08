@@ -1,7 +1,45 @@
 .default {
-
+    display:inline-block;
+    min-width: 90px;
+    min-height: 30px;
+    border:0.1em solid #FFFFFF;
+    margin:0.3em;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#000000;
+    text-align:center;
+    transition: all 0.2s;
+}
+.default:hover {
+    color:#FFFFFF;
+    background-color:#454751;
 }
 
 .red {
-    background: red;
+    background: #de2121;
+}
+
+.red:hover {
+    color:#FFFFFF;
+    background-color:#8c1d1d;
+}
+
+.disabled {
+    display:inline-block;
+    min-width: 90px;
+    min-height: 30px;
+    border:0.1em solid #FFFFFF;
+    margin:0.3em;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    background-color:#cfcfcf;
 }

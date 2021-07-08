@@ -1,12 +1,28 @@
 .superInput {
+    /*border: 3px solid blue;*/
+    /*background: blue;*/
+    display: block;
+    min-width: 300px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
 
+.superInput:focus {
+    outline: none;
+    border: 1px solid #454751;
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    background: #de2121;
 }
 
 .error {
+    font-family: Roboto, sans-serif ;
+    margin-bottom: 5px;
     color: red;
 }
