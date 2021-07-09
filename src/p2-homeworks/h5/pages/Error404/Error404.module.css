@@ -1,0 +1,15 @@
+.wrapper {
+    width: 100%;
+    text-align: center;
+
+}
+.numOfError {
+    font-size: 250px;
+}
+.title {
+    font-size: 60px;
+}
+.print {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
